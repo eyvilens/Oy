@@ -1,5 +1,5 @@
 Instructions:
-1. Run node: \n
+1. Run node: \r\n
 Oy\NodeServer>npm run start
 2. Run mongo: 
 set PATH=%PATH%;C:\Program Files\MongoDB\Server\4.0\bin
