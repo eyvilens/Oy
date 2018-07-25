@@ -7,13 +7,14 @@ class Circle extends Component {
     this.state = {size: 50};
 
     this.increment = this.increment.bind(this);
-}
-    increment()
-    {
-      this.setState(previousState => {
-        return { size: previousState.size + 20 };
-      });
-    }
+  }
+  
+  increment()
+  {
+    this.setState(previousState => {
+      return { size: previousState.size + 20 };
+    });
+  }
 
   render() {
     return (

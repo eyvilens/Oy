@@ -1,10 +1,11 @@
 # See https://help.github.com/ignore-files/ for more about ignoring files.
 
 # expo
-.expo/
+Client/.expo/
 
 # dependencies
-/node_modules
+Server/node_modules
+Client/node_modules
 
 # misc
 .env.local

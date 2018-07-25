@@ -6,7 +6,6 @@ module.exports = function(app) {
   app.route('/users')
     .post(user.create_a_user);
 
-
   app.route('/users/:username')
     .get(user.read_a_user)
     .put(user.update_a_user)

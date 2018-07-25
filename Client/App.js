@@ -11,6 +11,16 @@ export default class App extends React.Component {
       </View>
     );
   }
+
+  componentDidMount() {
+    fetch('https://localhost:3000/challenges/mapaz', {
+      method: 'GET',
+      headers: {
+        Accept: 'application/json',
+        'Content-Type': 'application/json',
+      }
+    });
+  }
 }
 
 const styles = StyleSheet.create({

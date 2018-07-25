@@ -7,7 +7,6 @@ module.exports = function(app) {
     .get(challenge.list_all_challenges)
     .post(challenge.create_a_challenge);
 
-
   app.route('/challenges/:challengeId')
     .get(challenge.read_a_challenge)
     .put(challenge.update_a_challenge)
